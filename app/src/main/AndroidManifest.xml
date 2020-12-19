@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LabWorks">
-        <activity android:name=".Lab1.Lab1_Question1_Activity">
+        <activity android:name=".lab1.Lab1Question1Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
