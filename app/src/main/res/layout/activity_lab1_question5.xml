@@ -9,9 +9,9 @@
 
     <TextView
         android:id="@+id/tvUsername"
-        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Username: "
         android:textSize="25sp" />
 
@@ -19,33 +19,32 @@
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvUsername"
         android:inputType="text"
-        android:textSize="25sp"
-        android:layout_toEndOf="@id/tvUsername"/>
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/tvPassword"
-        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tvUsername"
+        android:layout_marginTop="20dp"
         android:text="Password: "
-        android:textSize="25sp"
-        android:layout_below="@id/tvUsername"/>
+        android:textSize="25sp" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:textSize="25sp"
+        android:layout_below="@id/etUsername"
         android:layout_toEndOf="@id/tvPassword"
-        android:layout_below="@id/etUsername"/>
+        android:inputType="text"
+        android:textSize="25sp" />
 
     <Button
-        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_below="@id/etPassword" />
-
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="40dp"
+        android:text="Login" />
 </RelativeLayout>
