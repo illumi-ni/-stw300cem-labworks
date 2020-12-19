@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.ujjallamichhane.labworks.R
 
-class Lab2Question1 : AppCompatActivity() {
+class Lab2Question1Activity : AppCompatActivity() {
     private lateinit var tvValue: TextView
     private lateinit var btnIncrease: Button
     private var counter: Int = 0
