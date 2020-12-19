@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LabWorks">
-        <activity android:name=".lab1.Lab1Question3Activity">
+        <activity android:name=".lab1.Lab1Question4Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".lab1.Lab1Question3Activity" />
         <activity android:name=".lab1.Lab1Question2Activity" />
         <activity android:name=".lab1.Lab1Question1Activity" />
         <activity android:name=".MainActivity" />
